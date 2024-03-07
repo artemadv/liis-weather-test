@@ -1,0 +1,29 @@
+.widget {
+    padding: 0 var(--indent-20) var(--indent-20);
+    background-color: var(--color-white);
+    border-radius: 10px;
+    color: var(--color-black);
+
+    &__errorTitle {
+        font-size: var(--font-size-20);
+        padding: 0;
+        margin: 0;
+    }
+
+    &__errorButton {
+        margin-top: var(--font-size-20);
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: var(--indent-20) 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--indent-20);
+    }
+
+    &__card {
+        margin-top: var(--indent-20);
+    }
+}

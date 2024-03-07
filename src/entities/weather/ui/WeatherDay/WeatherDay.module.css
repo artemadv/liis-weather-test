@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--indent-10);
+    padding: var(--indent-10);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--color-mint-tulip);
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: var(--color-cornflower);
+    }
+
+    &__icon {
+        font-size: var(--font-size-h1);
+        line-height: 1;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__day {
+        font-size: var(--font-size-16);
+        font-weight: 800;
+    }
+
+    &__temperature {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__temperatureMax {
+        font-weight: 800;
+    }
+}

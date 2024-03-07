@@ -1,0 +1,21 @@
+@import url('../../../../shared/ui/styles/mixins/media.css');
+
+.widget {
+    &__cubeWrapper {
+        height: 300px;
+
+        @include mediaTablet() {
+            height: 450px;
+        }
+
+        @include mediaDesktop() {
+            height: 600px;
+        }
+    }
+
+    &__cubeWrapper_theme_skeleton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

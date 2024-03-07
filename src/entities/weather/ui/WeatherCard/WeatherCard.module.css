@@ -1,0 +1,52 @@
+.card {
+    border-radius: 10px;
+    height: 200px;
+    padding: var(--indent-20);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-black);
+
+    &_theme_currentDay {
+        background-color: var(--color-vivid-tangerine);
+    }
+
+    &_theme_day {
+        background-color: var(--color-mint-tulip);
+    }
+
+    &__info {
+        margin-top: auto;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__temperature {
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    &__city {
+        font-size: 20px;
+    }
+
+    &__day {
+        font-size: 14px;
+        margin-top: var(--indent-10);
+    }
+
+    &__label {
+        font-size: 14px;
+        background-color: var(--color-pickled-bluewood);
+        color: var(--color-white);
+        padding: var(--indent-5);
+        border-radius: 5px;
+    }
+
+    &__icon {
+        margin-right: var(--indent-15);
+    }
+}

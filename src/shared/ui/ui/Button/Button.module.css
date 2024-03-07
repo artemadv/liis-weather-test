@@ -1,0 +1,19 @@
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: var(--font-size-16);
+    text-transform: uppercase;
+    padding: var(--indent-12) var(--indent-20);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+    background-color: var(--color-mint-tulip);
+
+    &:hover {
+        background-color: var(--color-cornflower);
+    }
+}
