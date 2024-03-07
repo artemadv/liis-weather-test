@@ -84,6 +84,7 @@ export const useGetCanvasCubeSidesWithWeather = (data: MeteoData['days']) => {
                 data.slice(0, COUNT_OF_SIDE),
             );
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return [canvasRef1, canvasRef2, canvasRef3, canvasRef4, canvasRef5, canvasRef6];

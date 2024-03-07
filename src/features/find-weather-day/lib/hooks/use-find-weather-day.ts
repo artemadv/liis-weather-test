@@ -12,6 +12,7 @@ export const useFindWeatherDay = (days: MeteoData['days']) => {
 
             setTargetDay(currentTargetDay);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [targetDate]);
 
     return {
